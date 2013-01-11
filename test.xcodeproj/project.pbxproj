@@ -18,6 +18,13 @@
 		C57E37C516A0AF180070AE89 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C57E37C416A0AF180070AE89 /* Default-568h@2x.png */; };
 		C57E37C816A0AF180070AE89 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C57E37C616A0AF180070AE89 /* MainStoryboard.storyboard */; };
 		C57E37CB16A0AF180070AE89 /* APSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57E37CA16A0AF180070AE89 /* APSViewController.m */; };
+		C57E37DA16A0AF690070AE89 /* GC3DFlipTransitionStyleSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = C57E37D716A0AF690070AE89 /* GC3DFlipTransitionStyleSegue.m */; };
+		C57E37DB16A0AF690070AE89 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C57E37D816A0AF690070AE89 /* README.md */; };
+		C57E37DC16A0AF690070AE89 /* wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C57E37D916A0AF690070AE89 /* wood.jpg */; };
+		C57E37DF16A0AFC00070AE89 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57E37DE16A0AFC00070AE89 /* GLKit.framework */; };
+		C57E37E116A0AFC40070AE89 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57E37E016A0AFC40070AE89 /* OpenGLES.framework */; };
+		C57E37E316A0AFCC0070AE89 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57E37E216A0AFCC0070AE89 /* QuartzCore.framework */; };
+		C57E37E516A0AFE20070AE89 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57E37E416A0AFE20070AE89 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +44,14 @@
 		C57E37C716A0AF180070AE89 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		C57E37C916A0AF180070AE89 /* APSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APSViewController.h; sourceTree = "<group>"; };
 		C57E37CA16A0AF180070AE89 /* APSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APSViewController.m; sourceTree = "<group>"; };
+		C57E37D616A0AF690070AE89 /* GC3DFlipTransitionStyleSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GC3DFlipTransitionStyleSegue.h; sourceTree = "<group>"; };
+		C57E37D716A0AF690070AE89 /* GC3DFlipTransitionStyleSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GC3DFlipTransitionStyleSegue.m; sourceTree = "<group>"; };
+		C57E37D816A0AF690070AE89 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		C57E37D916A0AF690070AE89 /* wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wood.jpg; sourceTree = "<group>"; };
+		C57E37DE16A0AFC00070AE89 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		C57E37E016A0AFC40070AE89 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C57E37E216A0AFCC0070AE89 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C57E37E416A0AFE20070AE89 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +59,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C57E37E516A0AFE20070AE89 /* MapKit.framework in Frameworks */,
+				C57E37E316A0AFCC0070AE89 /* QuartzCore.framework in Frameworks */,
+				C57E37E116A0AFC40070AE89 /* OpenGLES.framework in Frameworks */,
+				C57E37DF16A0AFC00070AE89 /* GLKit.framework in Frameworks */,
 				C57E37AF16A0AF180070AE89 /* UIKit.framework in Frameworks */,
 				C57E37B116A0AF180070AE89 /* Foundation.framework in Frameworks */,
 				C57E37B316A0AF180070AE89 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +75,7 @@
 		C57E379F16A0AF180070AE89 = {
 			isa = PBXGroup;
 			children = (
+				C57E37D516A0AF690070AE89 /* GC3DFlipTransitionStyleSegue */,
 				C57E37B416A0AF180070AE89 /* test */,
 				C57E37AD16A0AF180070AE89 /* Frameworks */,
 				C57E37AB16A0AF180070AE89 /* Products */,
@@ -73,6 +93,10 @@
 		C57E37AD16A0AF180070AE89 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C57E37E416A0AFE20070AE89 /* MapKit.framework */,
+				C57E37E216A0AFCC0070AE89 /* QuartzCore.framework */,
+				C57E37E016A0AFC40070AE89 /* OpenGLES.framework */,
+				C57E37DE16A0AFC00070AE89 /* GLKit.framework */,
 				C57E37AE16A0AF180070AE89 /* UIKit.framework */,
 				C57E37B016A0AF180070AE89 /* Foundation.framework */,
 				C57E37B216A0AF180070AE89 /* CoreGraphics.framework */,
@@ -105,6 +129,17 @@
 				C57E37C416A0AF180070AE89 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C57E37D516A0AF690070AE89 /* GC3DFlipTransitionStyleSegue */ = {
+			isa = PBXGroup;
+			children = (
+				C57E37D616A0AF690070AE89 /* GC3DFlipTransitionStyleSegue.h */,
+				C57E37D716A0AF690070AE89 /* GC3DFlipTransitionStyleSegue.m */,
+				C57E37D816A0AF690070AE89 /* README.md */,
+				C57E37D916A0AF690070AE89 /* wood.jpg */,
+			);
+			path = GC3DFlipTransitionStyleSegue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +199,8 @@
 				C57E37C316A0AF180070AE89 /* Default@2x.png in Resources */,
 				C57E37C516A0AF180070AE89 /* Default-568h@2x.png in Resources */,
 				C57E37C816A0AF180070AE89 /* MainStoryboard.storyboard in Resources */,
+				C57E37DB16A0AF690070AE89 /* README.md in Resources */,
+				C57E37DC16A0AF690070AE89 /* wood.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +214,7 @@
 				C57E37BB16A0AF180070AE89 /* main.m in Sources */,
 				C57E37BF16A0AF180070AE89 /* APSAppDelegate.m in Sources */,
 				C57E37CB16A0AF180070AE89 /* APSViewController.m in Sources */,
+				C57E37DA16A0AF690070AE89 /* GC3DFlipTransitionStyleSegue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +331,7 @@
 				C57E37D016A0AF180070AE89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
